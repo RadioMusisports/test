@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundSphere Radio - Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-container" class="container">
+    <h1>SoundSphere Radio</h1>
+    <div class="form-group">
+      <label for="username">Nom d'utilisateur</label>
+      <input type="text" id="username" placeholder="Entrez votre pseudo">
+    </div>
+    <div class="form-group">
+      <label for="password">Mot de passe</label>
+      <input type="password" id="password" placeholder="Entrez votre mot de passe">
+    </div>
+    <button id="login-btn">Se connecter</button>
+    <p id="login-error" style="color: red; display: none;">Pseudo ou mot de passe incorrect</p>
+  </div>
+
+  <div id="main-content" class="container" style="display: none;">
+    <h1>Bienvenue, <span id="welcome-username"></span> !</h1>
+    <div class="buttons">
+      <a href="quiz-spotify.html" class="btn">Quiz Spotify</a>
+      <a href="quiz-anglais.html" class="btn">Quiz Musique Anglaise</a>
+      <a href="quiz-quebecois.html" class="btn">Quiz Musique Québécoise</a>
+      <a href="chat.html" class="btn">Chat en Direct</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
